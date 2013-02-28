@@ -1,0 +1,12 @@
+// prevent scrolling
+body {
+  overflow:hidden;
+}
+
+// go fullsize
+#experience {
+  @include box-sizing(border-box);
+
+  width:100%;
+  height:100%;
+}
